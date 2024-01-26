@@ -52,7 +52,7 @@
 
         </header> 
                 
-            <form action="/createNewValid.php" method="post" enctype="multipart/form-data">  
+            <form action="createNewValid.php" method="post" enctype="multipart/form-data">  
                 <label for="category">Категории:</label>  
                 <select id="category" name="category">  
                     <option value="technology">Технологии</option>  
@@ -60,13 +60,18 @@
                     <option value="sports">Спорт</option>  
                     <option value="food">Еда</option>  
                 </select>
+
                 <br><br>
+
                 <label for="Title">Заголовок:</label>  
                 <input type="text" id="Title" name="Title" class="submit-button-img"><br><br>  
+
                 <label for="text" >Текст:</label><br>  
                 <textarea id="text" name="text" rows="4" cols="50"></textarea><br><br>  
+
                 <label for="image">Изображение:</label>  
                 <input type="file" id="image" name="image" accept="image/*" class="submit-button-img"><br><br>  
+                
                 <input type="submit" value="Отправить" class="submit-button">  
             </form>
             
